@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contanier{
+    display: flex;
+    padding-top: 200px;
+    width: 1000px;
+    height: 500px;
+    background-color:black;
+}
+.one {
+
+        width: 60px;
+        height: 90px;
+        background-color:red;
+        border-radius: 50px 50px 0 0;
+      margin:0px;
+        transform: rotate(47deg);
+        position: absolute;
+        left:500px
+}
+.two{
+    width:60px;
+    height: 90px;
+    background-color: red;
+    border-radius: 50px 50px 0 0;
+  margin: 0px;
+    transform: rotate(-47deg);
+    position: relative;
+    left: 474px;
+}
